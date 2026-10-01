@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+models/*.task
+models/*.npz
+data/sessions/*
+!data/sessions/.gitkeep
+reports/*
+!reports/.gitkeep
+firmware/**/secrets.h
+.env
